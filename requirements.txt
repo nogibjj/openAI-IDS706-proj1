@@ -1,0 +1,15 @@
+boto3
+pylint
+click
+pytest
+pytest-cov
+fastapi
+requests
+openai
+python-youtube
+beautifulsoup4==4.11.1
+databricks
+databricks-cli
+databricks-sql-connector
+databricks-connect==10.4.*
+ipython
