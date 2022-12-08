@@ -16,10 +16,10 @@ def get_connection():
     """Returns a connection to the database"""
     print(os.environ["DBPASS"])
     connection = MySQLdb.connect(
-        host="database-lqc.ciankffgrtkz.us-east-1.rds.amazonaws.com",
+        host="db706.ciankffgrtkz.us-east-1.rds.amazonaws.com",
         user="admin",
         passwd=os.environ["DBPASS"],
-        db="proj3",
+        db="proj4",
     )
     return connection
 
@@ -111,7 +111,8 @@ def save_all_data():
         print("saved")
 
 if __name__ == "__main__":
-    cli()
+    #cli()
+    save_all_data()
 
 
 # create table universities
